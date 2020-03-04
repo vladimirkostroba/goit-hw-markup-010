@@ -1,0 +1,68 @@
+/* banner */
+
+.banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/baner/top-baner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-resolution: 2dppx) {
+  .banner {
+    background-image: url(../images/baner/top-baner@2x.jpg);
+  }
+}
+
+.banner__title {
+  font-family: var(--main-font);
+  font-size: 48px;
+  font-weight: 200;
+  text-align: center;
+  color: #fffcfc;
+  margin: 0;
+  padding: 0;
+}
+
+.and {
+  color: #1abc9c;
+  font-weight: 500;
+}
+
+.sale {
+  color: #1abc9c;
+}
+
+.banner__link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  height: 45px;
+  width: 120px;
+  background-color: #19bb9b;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color var(--animation-time) var(--animation-function);
+}
+
+.banner__link:hover {
+  background-color: #e9effd;
+}
+
+.banner__animation {
+  animation-name: textin;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+}

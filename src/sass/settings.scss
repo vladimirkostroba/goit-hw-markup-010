@@ -1,0 +1,55 @@
+/* settings */
+
+.settings {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.settings-main {
+  padding-top: 100px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.settings__item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 249px;
+  text-align: center;
+}
+
+.settings__item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.settings__item-icon {
+  width: 60px;
+  height: 60px;
+  fill: var(--action__button--color);
+}
+
+.settings__title {
+  font-family: var(--second-font);
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #555252;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  margin-top: 30px;
+}
+
+.settings__description {
+  font-family: var(--second-font);
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #555252;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
